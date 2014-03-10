@@ -21,6 +21,7 @@
 		E323331918CE01F20075B44F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32332FB18CE01F20075B44F /* UIKit.framework */; };
 		E323332118CE01F20075B44F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E323331F18CE01F20075B44F /* InfoPlist.strings */; };
 		E323332318CE01F20075B44F /* RehabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E323332218CE01F20075B44F /* RehabTests.m */; };
+		E323332E18CE1FFC0075B44F /* cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = E323332D18CE1FFC0075B44F /* cuerpo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E323331E18CE01F20075B44F /* RehabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RehabTests-Info.plist"; sourceTree = "<group>"; };
 		E323332018CE01F20075B44F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E323332218CE01F20075B44F /* RehabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RehabTests.m; sourceTree = "<group>"; };
+		E323332D18CE1FFC0075B44F /* cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuerpo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		E32332FD18CE01F20075B44F /* Rehab */ = {
 			isa = PBXGroup;
 			children = (
+				E323332C18CE1FDC0075B44F /* Images */,
 				E323330618CE01F20075B44F /* AppDelegate.h */,
 				E323330718CE01F20075B44F /* AppDelegate.m */,
 				E323330918CE01F20075B44F /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				E323331F18CE01F20075B44F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E323332C18CE1FDC0075B44F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E323332D18CE1FFC0075B44F /* cuerpo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				E323331018CE01F20075B44F /* Images.xcassets in Resources */,
 				E323330218CE01F20075B44F /* InfoPlist.strings in Resources */,
 				E323330B18CE01F20075B44F /* Main.storyboard in Resources */,
+				E323332E18CE1FFC0075B44F /* cuerpo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
