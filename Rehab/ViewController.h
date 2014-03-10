@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *cap;
+@property (strong, nonatomic) IBOutlet UIImageView *imatgeCos;
 
 @end
