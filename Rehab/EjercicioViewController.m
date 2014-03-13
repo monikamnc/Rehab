@@ -8,6 +8,7 @@
 
 #import "EjercicioViewController.h"
 #import "EjercicioCell.h"
+#import "DolorsCell.h"
 
 @interface EjercicioViewController ()
 
@@ -27,11 +28,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"%i",_ejercicioIndex);
 
-    _ejerciciosTab = @[@"Cervicalgia",
-                     @"Hernia Discal",
-                     @"Espondilitis",
-                     @"Artrosis"];
+    switch (_ejercicioIndex) {
+        case 0:
+            _ejerciciosTab = @[@"1. Reeducación Postural",
+                               @"2. Flexibilización cervical",
+                               @"3. Isométricos de tonificación",
+                               @"4. Musculación en activo"];            
+            break;
+            
+        default:
+            break;
+    }
+    
+    NSLog(@"Exercicis %i",_ejerciciosTab.count);
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,18 +66,19 @@
 {
 
     // Return the number of rows in the section.
+    NSLog(@"Rows %i", _ejerciciosTab.count);
     return _ejerciciosTab.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (EjercicioCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"EjercicioCell";
+    static NSString *CellIdentifier = @"ejercicioCell";
     EjercicioCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     long row = [indexPath row];
     
-    cell.ejerciciosLab.text = _ejerciciosTab[row];
+    cell.ejercicioLabel.text = _ejerciciosTab[row];
     
     return cell;
 }

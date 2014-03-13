@@ -8,6 +8,7 @@
 
 #import "DolorsViewController.h"
 #import "DolorsCell.h"
+#import "EjercicioViewController.h"
 
 @interface DolorsViewController ()
 
@@ -33,6 +34,12 @@
                   @"Hernia Discal",
                   @"Espondilitis",
                   @"Artrosis"];
+    
+    _ejerciciosTab = @[@"1. Reeducación Postural",
+                       @"2. Flexibilización cervical",
+                       @"3. Isométricos de tonificación",
+                       @"4. Musculación en activo"];
+    
     
 }
 
@@ -111,16 +118,23 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"dolor"])
+    {
+        EjercicioViewController *detailViewController =
+        [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView
+                                    indexPathForSelectedRow];
+        
+        long row = [myIndexPath row];
+        
+        detailViewController.ejercicioIndex = row;
+    }
 }
-
- */
 
 @end

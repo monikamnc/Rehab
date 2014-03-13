@@ -10,4 +10,7 @@
 
 @interface EjercicioViewController : UITableViewController
 @property (nonatomic, strong) NSArray *ejerciciosTab;
+@property (nonatomic, strong) NSArray *cerviTab;
+@property (nonatomic) int ejercicioIndex;
+
 @end

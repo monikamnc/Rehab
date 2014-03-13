@@ -10,6 +10,7 @@
 
 @interface DolorsViewController : UITableViewController
 @property (nonatomic, strong) NSArray *doloresTab;
+@property (nonatomic, strong) NSArray *ejerciciosTab;
 
 
 @end
