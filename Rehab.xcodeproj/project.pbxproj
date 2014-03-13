@@ -22,6 +22,14 @@
 		E323332118CE01F20075B44F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E323331F18CE01F20075B44F /* InfoPlist.strings */; };
 		E323332318CE01F20075B44F /* RehabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E323332218CE01F20075B44F /* RehabTests.m */; };
 		E323332E18CE1FFC0075B44F /* cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = E323332D18CE1FFC0075B44F /* cuerpo.png */; };
+		E3E77C5D18D217CB00EC2841 /* DolorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E77C5C18D217CB00EC2841 /* DolorsViewController.m */; };
+		E3E77C6018D2194F00EC2841 /* EjercicioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E77C5F18D2194F00EC2841 /* EjercicioViewController.m */; };
+		E3E77C6618D21FCE00EC2841 /* DolorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E77C6518D21FCE00EC2841 /* DolorsCell.m */; };
+		E3E77C6918D2226000EC2841 /* EjercicioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E77C6818D2226000EC2841 /* EjercicioCell.m */; };
+		E3E77C6B18D222CA00EC2841 /* redball.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E77C6A18D222CA00EC2841 /* redball.png */; };
+		E3E77C6F18D2305100EC2841 /* rellotge.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E77C6C18D2305100EC2841 /* rellotge.png */; };
+		E3E77C7018D2305100EC2841 /* imatge2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E77C6D18D2305100EC2841 /* imatge2.png */; };
+		E3E77C7118D2305100EC2841 /* imatge1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E77C6E18D2305100EC2841 /* imatge1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,18 @@
 		E323332018CE01F20075B44F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E323332218CE01F20075B44F /* RehabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RehabTests.m; sourceTree = "<group>"; };
 		E323332D18CE1FFC0075B44F /* cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuerpo.png; sourceTree = "<group>"; };
+		E3E77C5B18D217CB00EC2841 /* DolorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolorsViewController.h; sourceTree = "<group>"; };
+		E3E77C5C18D217CB00EC2841 /* DolorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DolorsViewController.m; sourceTree = "<group>"; };
+		E3E77C5E18D2194F00EC2841 /* EjercicioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EjercicioViewController.h; sourceTree = "<group>"; };
+		E3E77C5F18D2194F00EC2841 /* EjercicioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EjercicioViewController.m; sourceTree = "<group>"; };
+		E3E77C6418D21FCE00EC2841 /* DolorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolorsCell.h; sourceTree = "<group>"; };
+		E3E77C6518D21FCE00EC2841 /* DolorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DolorsCell.m; sourceTree = "<group>"; };
+		E3E77C6718D2226000EC2841 /* EjercicioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EjercicioCell.h; sourceTree = "<group>"; };
+		E3E77C6818D2226000EC2841 /* EjercicioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EjercicioCell.m; sourceTree = "<group>"; };
+		E3E77C6A18D222CA00EC2841 /* redball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redball.png; sourceTree = "<group>"; };
+		E3E77C6C18D2305100EC2841 /* rellotge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rellotge.png; sourceTree = "<group>"; };
+		E3E77C6D18D2305100EC2841 /* imatge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imatge2.png; sourceTree = "<group>"; };
+		E3E77C6E18D2305100EC2841 /* imatge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imatge1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +142,14 @@
 				E323330D18CE01F20075B44F /* ViewController.m */,
 				E323330F18CE01F20075B44F /* Images.xcassets */,
 				E32332FE18CE01F20075B44F /* Supporting Files */,
+				E3E77C5B18D217CB00EC2841 /* DolorsViewController.h */,
+				E3E77C5C18D217CB00EC2841 /* DolorsViewController.m */,
+				E3E77C5E18D2194F00EC2841 /* EjercicioViewController.h */,
+				E3E77C5F18D2194F00EC2841 /* EjercicioViewController.m */,
+				E3E77C6418D21FCE00EC2841 /* DolorsCell.h */,
+				E3E77C6518D21FCE00EC2841 /* DolorsCell.m */,
+				E3E77C6718D2226000EC2841 /* EjercicioCell.h */,
+				E3E77C6818D2226000EC2841 /* EjercicioCell.m */,
 			);
 			path = Rehab;
 			sourceTree = "<group>";
@@ -158,6 +186,10 @@
 		E323332C18CE1FDC0075B44F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E3E77C6C18D2305100EC2841 /* rellotge.png */,
+				E3E77C6D18D2305100EC2841 /* imatge2.png */,
+				E3E77C6E18D2305100EC2841 /* imatge1.png */,
+				E3E77C6A18D222CA00EC2841 /* redball.png */,
 				E323332D18CE1FFC0075B44F /* cuerpo.png */,
 			);
 			name = Images;
@@ -240,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E323331018CE01F20075B44F /* Images.xcassets in Resources */,
+				E3E77C6F18D2305100EC2841 /* rellotge.png in Resources */,
 				E323330218CE01F20075B44F /* InfoPlist.strings in Resources */,
+				E3E77C6B18D222CA00EC2841 /* redball.png in Resources */,
+				E3E77C7018D2305100EC2841 /* imatge2.png in Resources */,
 				E323330B18CE01F20075B44F /* Main.storyboard in Resources */,
+				E3E77C7118D2305100EC2841 /* imatge1.png in Resources */,
 				E323332E18CE1FFC0075B44F /* cuerpo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +299,11 @@
 			files = (
 				E323330E18CE01F20075B44F /* ViewController.m in Sources */,
 				E323330818CE01F20075B44F /* AppDelegate.m in Sources */,
+				E3E77C6018D2194F00EC2841 /* EjercicioViewController.m in Sources */,
+				E3E77C6918D2226000EC2841 /* EjercicioCell.m in Sources */,
 				E323330418CE01F20075B44F /* main.m in Sources */,
+				E3E77C5D18D217CB00EC2841 /* DolorsViewController.m in Sources */,
+				E3E77C6618D21FCE00EC2841 /* DolorsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +512,7 @@
 				E323332818CE01F20075B44F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E323332918CE01F20075B44F /* Build configuration list for PBXNativeTarget "RehabTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +521,7 @@
 				E323332B18CE01F20075B44F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
