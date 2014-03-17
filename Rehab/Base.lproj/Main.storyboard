@@ -132,8 +132,6 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="ejercicioLabel" destination="g76-0q-zDf" id="8To-Yb-yFb"/>
-                                    <outlet property="ejerciciosLab" destination="g76-0q-zDf" id="U2n-UJ-pPP"/>
-                                    <outlet property="ejerciosLab" destination="g76-0q-zDf" id="Kqe-FU-I8y"/>
                                     <segue destination="TRP-TQ-6VE" kind="push" identifier="Empezar" id="eD1-fY-H4i"/>
                                 </connections>
                             </tableViewCell>
@@ -160,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="-811" y="1103"/>
         </scene>
-        <!--View Controller-->
+        <!--Empezar View Controller-->
         <scene sceneID="dSj-Ac-jG6">
             <objects>
-                <viewController id="TRP-TQ-6VE" sceneMemberID="viewController">
+                <viewController id="TRP-TQ-6VE" customClass="EmpezarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4GP-Qa-7PF"/>
                         <viewControllerLayoutGuide type="bottom" id="lD3-RT-9qH"/>
@@ -205,6 +203,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AVy-4E-c9h"/>
+                    <connections>
+                        <outlet property="descripcioLabel" destination="x1v-Lh-16e" id="yHT-ch-2tz"/>
+                        <outlet property="empezarButton" destination="eM1-bZ-Xfz" id="vDj-58-T7b"/>
+                        <outlet property="imatgeLabel" destination="hbC-56-M68" id="nx1-qg-Bwp"/>
+                        <outlet property="tiempoLabel" destination="WhJ-u2-xjP" id="kYR-zd-c4y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zhZ-mk-Hgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -38,6 +38,24 @@
                                @"3. Isométricos de tonificación",
                                @"4. Musculación en activo"];            
             break;
+        case 1:
+            _ejerciciosTab = @[@"1. Caca en un pal",
+                               @"2. Flexibilización cervical",
+                               @"3. Isométricos de tonificación",
+                               @"4. Musculación en activo"];
+            break;
+        case 2:
+            _ejerciciosTab = @[@"1. Reeducación Postural",
+                               @"2. Flexibilización cervical",
+                               @"3. Isométricos de tonificación",
+                               @"4. Musculación en activo"];
+            break;
+        case 3:
+            _ejerciciosTab = @[@"1. Reeducación Postural",
+                               @"2. Flexibilización cervical",
+                               @"3. Isométricos de tonificación",
+                               @"4. Musculación en activo"];
+            break;
             
         default:
             break;
