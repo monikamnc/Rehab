@@ -188,6 +188,9 @@
                                     <color key="titleColor" red="1" green="0.0039215688593685627" blue="0.023529414087533951" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="empezarButton:" destination="TRP-TQ-6VE" eventType="touchUpInside" id="Dyb-vT-j1w"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhJ-u2-xjP">
                                 <rect key="frame" x="214" y="521" width="42" height="25"/>
@@ -196,7 +199,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rellotge.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTK-4C-3Yv">
-                                <rect key="frame" x="257" y="515" width="43" height="37"/>
+                                <rect key="frame" x="264" y="517" width="35" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -205,7 +208,6 @@
                     <navigationItem key="navigationItem" id="AVy-4E-c9h"/>
                     <connections>
                         <outlet property="descripcioLabel" destination="x1v-Lh-16e" id="yHT-ch-2tz"/>
-                        <outlet property="empezarButton" destination="eM1-bZ-Xfz" id="vDj-58-T7b"/>
                         <outlet property="imatgeLabel" destination="hbC-56-M68" id="nx1-qg-Bwp"/>
                         <outlet property="tiempoLabel" destination="WhJ-u2-xjP" id="kYR-zd-c4y"/>
                     </connections>

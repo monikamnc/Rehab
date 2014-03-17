@@ -7,11 +7,15 @@
 //
 
 #import "ViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface EmpezarViewController : ViewController
 @property (weak, nonatomic) IBOutlet UILabel *descripcioLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imatgeLabel;
-@property (weak, nonatomic) IBOutlet UIButton *empezarButton;
+- (IBAction)empezarButton:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UILabel *tiempoLabel;
+@property (nonatomic, strong) NSTimer *contadorTimer;
+@property (nonatomic) int i;
 
 @end
