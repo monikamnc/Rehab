@@ -132,7 +132,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="ejercicioLabel" destination="g76-0q-zDf" id="8To-Yb-yFb"/>
-                                    <segue destination="TRP-TQ-6VE" kind="push" identifier="Empezar" id="eD1-fY-H4i"/>
+                                    <segue destination="TRP-TQ-6VE" kind="push" identifier="ejercicio" id="eD1-fY-H4i"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

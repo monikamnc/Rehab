@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E306C97A18DB4FED0050666C /* cuello1.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C97918DB4FED0050666C /* cuello1.png */; };
+		E306C97C18DB506A0050666C /* cuello2.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C97B18DB506A0050666C /* cuello2.png */; };
+		E306C98118DB6B020050666C /* isometrico1.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C97D18DB6B020050666C /* isometrico1.png */; };
+		E306C98218DB6B020050666C /* isometrico2.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C97E18DB6B020050666C /* isometrico2.png */; };
+		E306C98318DB6B020050666C /* musculo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C97F18DB6B020050666C /* musculo1.png */; };
+		E306C98418DB6B020050666C /* musculo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E306C98018DB6B020050666C /* musculo2.png */; };
 		E32332F818CE01F20075B44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32332F718CE01F20075B44F /* Foundation.framework */; };
 		E32332FA18CE01F20075B44F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32332F918CE01F20075B44F /* CoreGraphics.framework */; };
 		E32332FC18CE01F20075B44F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32332FB18CE01F20075B44F /* UIKit.framework */; };
@@ -45,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E306C97918DB4FED0050666C /* cuello1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuello1.png; sourceTree = "<group>"; };
+		E306C97B18DB506A0050666C /* cuello2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuello2.png; sourceTree = "<group>"; };
+		E306C97D18DB6B020050666C /* isometrico1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometrico1.png; sourceTree = "<group>"; };
+		E306C97E18DB6B020050666C /* isometrico2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometrico2.png; sourceTree = "<group>"; };
+		E306C97F18DB6B020050666C /* musculo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musculo1.png; sourceTree = "<group>"; };
+		E306C98018DB6B020050666C /* musculo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musculo2.png; sourceTree = "<group>"; };
 		E32332F418CE01F20075B44F /* Rehab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rehab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32332F718CE01F20075B44F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E32332F918CE01F20075B44F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,6 +205,12 @@
 		E323332C18CE1FDC0075B44F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E306C97D18DB6B020050666C /* isometrico1.png */,
+				E306C97E18DB6B020050666C /* isometrico2.png */,
+				E306C97F18DB6B020050666C /* musculo1.png */,
+				E306C98018DB6B020050666C /* musculo2.png */,
+				E306C97B18DB506A0050666C /* cuello2.png */,
+				E306C97918DB4FED0050666C /* cuello1.png */,
 				E3F90D9918D74FAA00ECD25A /* alarma.wav */,
 				E3E77C6C18D2305100EC2841 /* rellotge.png */,
 				E3E77C6D18D2305100EC2841 /* imatge2.png */,
@@ -280,12 +298,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E323331018CE01F20075B44F /* Images.xcassets in Resources */,
+				E306C98218DB6B020050666C /* isometrico2.png in Resources */,
 				E3E77C6F18D2305100EC2841 /* rellotge.png in Resources */,
 				E323330218CE01F20075B44F /* InfoPlist.strings in Resources */,
 				E3E77C6B18D222CA00EC2841 /* redball.png in Resources */,
+				E306C97C18DB506A0050666C /* cuello2.png in Resources */,
+				E306C98418DB6B020050666C /* musculo2.png in Resources */,
+				E306C98318DB6B020050666C /* musculo1.png in Resources */,
+				E306C98118DB6B020050666C /* isometrico1.png in Resources */,
 				E3E77C7018D2305100EC2841 /* imatge2.png in Resources */,
 				E3F90D9A18D74FAA00ECD25A /* alarma.wav in Resources */,
 				E323330B18CE01F20075B44F /* Main.storyboard in Resources */,
+				E306C97A18DB4FED0050666C /* cuello1.png in Resources */,
 				E3E77C7118D2305100EC2841 /* imatge1.png in Resources */,
 				E323332E18CE1FFC0075B44F /* cuerpo.png in Resources */,
 			);

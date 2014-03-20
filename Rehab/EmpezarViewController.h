@@ -17,5 +17,14 @@
 @property (weak, nonatomic) IBOutlet UILabel *tiempoLabel;
 @property (nonatomic, strong) NSTimer *contadorTimer;
 @property (nonatomic) int i;
+@property (nonatomic) int ejercicioIndex2;
+
+@property (nonatomic) NSString *text1;
+@property (nonatomic) NSString *text2;
+@property (nonatomic) NSString *imatge1;
+@property (nonatomic) NSString *imatge2;
+
+@property (nonatomic) int comptador;
+
 
 @end

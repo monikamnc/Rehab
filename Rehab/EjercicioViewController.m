@@ -9,6 +9,7 @@
 #import "EjercicioViewController.h"
 #import "EjercicioCell.h"
 #import "DolorsCell.h"
+#import "EmpezarViewController.h"
 
 @interface EjercicioViewController ()
 
@@ -140,7 +141,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -148,8 +149,21 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"ejercicio"])
+    {
+        EmpezarViewController *detailViewController =
+        [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView
+                                    indexPathForSelectedRow];
+        
+        long row = [myIndexPath row];
+        
+        detailViewController.ejercicioIndex2 = row;
+    }
+
 }
 
- */
+
 
 @end
